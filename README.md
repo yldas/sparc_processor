@@ -1,0 +1,1 @@
+Repository for Verilog implementation of single-cycle SPARC architecture Integer Unit Processor. Created as part of course requirements for Computer Architecture and Organization - ICOM 4215.
