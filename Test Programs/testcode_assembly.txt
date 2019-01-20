@@ -1,0 +1,14 @@
+0	ADD %r0, 44, %r1
+4	LDUB %r0, %r1, %r2
+8	LDUB %r1, 2, %r3
+12	ADD %r0, %r0, %r5
+16	ADD %r2, %r5, %r5
+20	SUBCC %r3, 1, %r3,
+24	BNE 4194302
+28	ADD %r0, %r0, %r0
+32	STB %r1, 1, %r5
+36	BA 3
+40	ADD %r0, %r0, %r0
+44	BGU 329,476
+48	BA 0
+52	ADD %r0, %r0, %r0

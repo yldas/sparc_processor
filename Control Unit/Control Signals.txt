@@ -1,0 +1,29 @@
+Control Signals
+	A. Register Load Enable Signals
+		1. RF_Ld: Register File
+		2. FR_Ld: Flags Register
+		3. IR_Ld: Instruction Register
+		4. MAR_Ld: Memory Address Register
+		5. MDR_Ld: Memory Data Register
+		6. PSR_Ld: Program Status Register
+		7. nPC_Ld: Next Program Counter
+		8. PC_Ld: Program Counter
+		9. TBR_Ld: Trap Base Register
+		10. WIM_Ld: Window Invalid Mask
+	B. Multiplexer Select Signals
+		1. MUX_A: ALU Operand A
+		2. MUX_B: ALU Operand B
+		3. MUX_OP: ALU Opcode
+		4. MUX_RFA: Register File Output Port A
+		5. MUX_RFB: Register File Output Port B
+		6. MUX_RFDest: Register File Destination Load Enable Port
+		7. MUX_nPC: Next Program Counter
+		8. MUX_PC: Program Counter
+		9. MUX_Add4: Adder 4
+		10. MUX_MDR: Memory Data Register
+	C. Memory Control Signals
+		1. R/W: Read/Write
+		2. MOV: Memory Operation Valid
+	D. Other Control Signals
+		1. C_In: ALU Carry In
+		2. OP: ALU Opcode
